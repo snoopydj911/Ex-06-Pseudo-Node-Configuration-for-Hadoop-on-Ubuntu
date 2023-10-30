@@ -58,36 +58,48 @@ Configure the directory for Hadoop to store its data files, the network ports it
  
 Include the following lines in core-site.xml file between <configuration> and
 </configuration> tags
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/64a73bd1-d22a-46a2-8caf-2c677f8ba4fd)
 
 
 
 c)	mapred-site.xml
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/fc84e61f-fd74-4e1e-8a6a-88c8928bbeaf)
 
  
 
 Include the following lines in mapred-site.xml file
- 
+ ![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/4cfcd140-66a5-42f2-8907-1325d5cea8bf)
+
 
 d)	hdfs-site.xml
 Include the following lines in hdfs-site.xml file
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/46d58e22-8462-4e3e-a588-44022f080462)
 
 
 e)	yarn-site.xml
+
 Include the following lines in yarn-site.xml file
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/3ce294b7-f16a-4c06-b9d9-82597a0a9c81)
+
 8.	Format the Hadoop File system implemented on top of the local file system using
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/90610583-3795-4419-b192-5786d1bfb33b)
 
 9.	Start Hadoop using
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/cf589361-6230-4b5e-857d-17a8379a7e79)
 
 
 Explore Hadoop using http://localhost:50070/ from the browser	
  
 10.	The commonly used HDFS Commands are as follows:
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/30e0de2d-964a-485b-9bd6-8a290ff5a391)
 
 
 11.	Create a directory ‘/input’ in HDFS
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/68058b0f-f0f9-47bf-a8bf-d487f762f7c6)
 
 
 12.	Copy the input files into the distributed file system
+![image](https://github.com/snoopydj911/Ex-06-Pseudo-Node-Configuration-for-Hadoop-on-Ubuntu/assets/122033587/eddd87cf-12a4-428f-9826-2280fb72408f)
 
 13.	Run some of the examples provided
 
